@@ -11,19 +11,19 @@ class Directory extends React.Component {
           title: 'hoodies',
           imageUrl: 'https://i.ibb.co/cYFtSC6/hoodie.jpg',
           id: 1,
-          linkUrl: 'shop/hats'
+          linkUrl: 'shop/hoodies'
         },
         {
           title: 'scarves',
           imageUrl: 'https://i.ibb.co/HK8t0zt/scarf.jpg',
           id: 2,
-          linkUrl: 'shop/jackets'
+          linkUrl: 'shop/scarves'
         },
         {
           title: 'socks',
           imageUrl: 'https://i.ibb.co/QfXbPdk/socks.jpg',
           id: 3,
-          linkUrl: 'shop/sneakers'
+          linkUrl: 'shop/socks'
         },
         {
           title: 'womens',
