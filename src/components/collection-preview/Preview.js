@@ -6,13 +6,11 @@ const CollectionPreview = ({ title, items }) => (
   <div className="collection-preview">
     <div className="title">{title.toUpperCase()}</div>
     <div className={`${title === 'Scarves' ? 'preview-scarves' : 'preview'}`}>
-      {
-        items
-          .filter((item, index) => index < 4)
-          .map(({id, ...otherItemProps}) => (
-          <CollectionItem key={id} {...otherItemProps} />
-        ))
-      }
+      {items
+        .filter((item, index) => index < 4)
+        .map((item) => (
+          <CollectionItem key={item.id} item={item} />
+        ))}
     </div>
   </div>
 )
