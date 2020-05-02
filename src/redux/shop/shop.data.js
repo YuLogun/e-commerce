@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  hoodies: {
     id: 1,
     title: 'Hoodies',
     routeName: 'hoodies',
@@ -42,7 +42,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  socks: {
     id: 2,
     title: 'Socks',
     routeName: 'socks',
@@ -74,7 +74,8 @@ const SHOP_DATA = [
       {
         id: 13,
         name: 'Assasins Socks',
-        imageUrl: 'https://i.ibb.co/xg0nhzt/discworld-socks-assassins-guild.jpg',
+        imageUrl:
+          'https://i.ibb.co/xg0nhzt/discworld-socks-assassins-guild.jpg',
         price: 12
       },
       {
@@ -85,14 +86,14 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  womens: {
     id: 3,
     title: 'Womens',
     routeName: 'womens',
     items: [
       {
         id: 15,
-        name: 'Assasins\' Guild',
+        name: "Assasins' Guild",
         imageUrl: 'https://i.ibb.co/275m2Jz/assassins-guild-t-shirt.jpg',
         price: 25
       },
@@ -111,7 +112,8 @@ const SHOP_DATA = [
       {
         id: 18,
         name: 'Murder a Curry',
-        imageUrl: 'https://i.ibb.co/wy3ZBHV/i-could-murder-a-curry-t-shirt-1.jpg',
+        imageUrl:
+          'https://i.ibb.co/wy3ZBHV/i-could-murder-a-curry-t-shirt-1.jpg',
         price: 80
       },
       {
@@ -134,7 +136,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  mens: {
     id: 4,
     title: 'Mens',
     routeName: 'mens',
@@ -153,7 +155,7 @@ const SHOP_DATA = [
       },
       {
         id: 24,
-        name: 'Asassins\' Guild',
+        name: "Asassins' Guild",
         imageUrl: 'https://i.ibb.co/z4PBQqv/mens.jpg',
         price: 25
       },
@@ -174,10 +176,10 @@ const SHOP_DATA = [
         name: 'Mr Wednesday',
         imageUrl: 'https://i.ibb.co/KsJDFCq/men-american-gods.jpg',
         price: 25
-      },
+      }
     ]
   },
-  {
+  scarves: {
     id: 5,
     title: 'Scarves',
     routeName: 'scarves',
@@ -196,6 +198,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+}
 
-export default SHOP_DATA;
+export default SHOP_DATA
