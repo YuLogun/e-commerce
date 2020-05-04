@@ -5,7 +5,21 @@
     height: 350px;
     align-items: center;
     position: relative;
-    //padding-right: 2%;
+    padding-right: 2%;
+
+    @media screen and (max-width: 700px) {
+        padding-right: 3%;
+        width: 40vw;
+        height: 270px;
+       &:hover {
+        .image {
+          opacity: unset;
+        }
+         button {
+          opacity: unset;
+        }
+      }
+      }
   
     .image {
       width: 100%;
@@ -21,6 +35,14 @@
       position: absolute;
       top: 255px;
       display: none;
+
+      @media screen and (max-width: 800px) {
+        top: 190px;
+        min-width: unset;
+        padding: 0 10px;
+        display: block;
+        opacity: 0.9;
+      }
     }
   
     &:hover {
@@ -40,6 +62,10 @@
       display: flex;
       justify-content: space-between;
       font-size: 18px;
+
+      @media screen and (max-width: 800px) {
+        font-size: 12px;
+      }
   
       .name {
         width: 90%;
